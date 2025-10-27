@@ -1,0 +1,6 @@
+steps innvolved: Installed Wireshark, 
+Started a packet capture on my Wi-Fi interface, 
+Generated traffic by visiting `http://example.com` and pinging `google.com`, 
+Stopped the capture after one minute, Applied filters (`dns`, `http`, `tcp`, `icmp`) to analyze specific protocols, 
+Saved the capture as a `.pcap` file, Documented the findings.
+I successfully identified the following protocols dns, http and tcp
